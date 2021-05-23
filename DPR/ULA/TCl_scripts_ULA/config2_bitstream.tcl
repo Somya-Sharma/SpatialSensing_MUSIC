@@ -1,0 +1,2 @@
+write_bitstream -force ./Bitstreams/Config2/config2.bit
+write_cfgmem -force -format BIN -interface SMAPx32 -disablebitswap -loadbit "up 0x0 ./Bitstreams/Config2/config2_pblock_inst_partial.bit" "./Bin_files/config2.bin"
